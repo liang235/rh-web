@@ -1,5 +1,6 @@
 {
   "name": "rh-web",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vitepress dev . --port 5678 --open",
     "build": "vitepress build",
