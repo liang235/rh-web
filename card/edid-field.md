@@ -10,9 +10,9 @@
 <script>
 export default {
     created() {
-        this.cardData.FD_HOLD_TIME = this.$route.query.startTIme
-        this.cardData.FD_END_TIME = this.$route.query.endTime
-        this.cardData.FD_PLACE_ID = this.$route.query.title
+        this.$set(this.cardData, 'FD_HOLD_TIME', this.$route.query.startTime)
+        this.$set(this.cardData, 'FD_END_TIME', this.$route.query.endTime)
+        this.$set(this.cardData, 'FD_PLACE_ID', this.$route.query.title)
     },
 }
 </script>
