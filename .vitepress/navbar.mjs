@@ -13,4 +13,9 @@ export default [
     link: '/list/',
     activeMatch: '/list/',
   },
+  {
+    text: '其他',
+    link: '/other/',
+    activeMatch: '/other/',
+  },
 ]
