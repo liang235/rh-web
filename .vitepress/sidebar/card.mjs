@@ -17,6 +17,7 @@ export default [
       { text: '插槽使用', link: `${commonPath}/solt.md` },
       { text: 'api 接口', link: `${commonPath}/api.md` },
       { text: '修改表单字段', link: `${commonPath}/edid-field.md` },
+      { text: '修改流程标签', link: `${commonPath}/wfe-tab.md` },
     ],
   },
 ]
