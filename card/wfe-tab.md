@@ -6,7 +6,7 @@
 - SY_COMM_CONFIG_PUBLIC
 <ZoomImg src="/wfe-tab-2.png" />
 
-- SY_WEB_TAB
+- SY_WFE_TAB
 <ZoomImg src="/wfe-tab-3.png" />
 
 <ZoomImg src="/wfe-tab-4.png" />
