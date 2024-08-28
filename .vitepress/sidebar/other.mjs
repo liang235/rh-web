@@ -14,6 +14,7 @@ export default [
     items: [
       { text: '上传', link: `${commonPath}/upload.md` },
       { text: '查询选择', link: `${commonPath}/rhSelectListBox.md` },
+      { text: 'wps在线编辑方式', link: `${commonPath}/wps.md` },
     ],
   },
 ]
