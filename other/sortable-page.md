@@ -6,7 +6,10 @@
 
 ## 添加页面模版
 <ZoomImg src="/sortable-page-2.png" />
+- `/tmplView/MH_HOME?title=门户首页`
+<ZoomImg src="/sortable-page-5.png" />
 
 ## 配置默认首页
 <ZoomImg src="/sortable-page-3.png" />
+- SY_HOME_CONFIG
 <ZoomImg src="/sortable-page-4.png" />
