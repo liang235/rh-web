@@ -7,3 +7,5 @@ import settings from 'rh-lib/src/settings'
 const store = settings.syStore
 const sysParams = store.getters.sysParams
 ```
+
+## 配置页面首页

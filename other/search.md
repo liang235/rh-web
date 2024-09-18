@@ -1,7 +1,9 @@
 # 查询选择
 http://apusx.cn:88/web/#/5/222
 
-## 自定义调用查询选择
+## rhSelectListBox
+
+### 自定义调用查询选择
 ```js
 this.$rhSelectListBox({
     servId: 'OA_CALENDAR_LEADER_LIST', // 服务编码
@@ -22,4 +24,16 @@ this.$rhSelectListBox({
         this.$forceUpdate()
     }
 })
+```
+
+### 给 rhSelectListBox 组件传值
+```js
+watch: {
+    // MIND_CONTENT 是绑定的输入意见
+    'cardData.MIND_CONTENT': function(val, oldval) {
+        // 传递给组件中的常用意见
+        this.$set(this.cardData._EXT_.WFE, 'mindBean', this.cardData._EXT_.WFE.mindBean || {})
+        this.$set(this.cardData._EXT_.WFE.mindBean, 'MIND_CONTENT', this.cardData.MIND_CONTENT)
+    }
+}
 ```
