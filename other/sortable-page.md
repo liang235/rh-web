@@ -75,3 +75,11 @@ export default {
 }
 </script>
 ```
+
+## 配置权限展示内容
+- `SY_COMM_CONFIG_PUBLIC`
+<ZoomImg src="/sortable-page-6.png" />
+
+- `SY_HOME_CONFIG`
+<ZoomImg src="/sortable-page-7.png" />
+<ZoomImg src="/sortable-page-8.png" />
