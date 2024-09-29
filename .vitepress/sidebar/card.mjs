@@ -18,6 +18,9 @@ export default [
       { text: 'api 接口', link: `${commonPath}/api.md` },
       { text: '修改表单字段', link: `${commonPath}/edid-field.md` },
       { text: '修改流程标签', link: `${commonPath}/wfe-tab.md` },
+      { text: '功能按钮操作', link: `${commonPath}/btns.md` },
+      { text: '表单状态', link: `${commonPath}/status.md` },
+      { text: '页面刷新', link: `${commonPath}/sseMessage.md` },
     ],
   },
 ]
