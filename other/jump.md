@@ -32,6 +32,22 @@ this.$openTab.open({
 })
 ```
 
+## 打开新页面
+```js
+const { href } = this.$router.resolve({
+    path: '/openCard/OA_MEETING/',
+    query: {
+      startTime,
+      endTime,
+      title: resource.title
+      // returnUrl: encodeURIComponent(this.$route.fullPath),
+    },
+    reload: true
+})
+
+window.open(href)
+```
+
 ## 在当前页面打开 dialog
 把列表页和卡片页以  dialog 的形式在当前页打开
 ```js
