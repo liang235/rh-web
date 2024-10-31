@@ -64,6 +64,13 @@ const params = {
         startTIme, endTime
     }
 }
+
+// 这个是关键
+const opts = {
+    title: '车辆封存记录',
+    width: '80%'
+}
+
 this.viFormList.showComByType('viFormList', params)
 ```
 
