@@ -3,7 +3,30 @@
 
 ## 基础用法
 ```html
-<ui-form-card ref="formList" v-bind="$attrs" v-on="$listeners">
-    <template #MEET_ROOM_item>会议室测试</template>
+<ui-form-card 
+    ref="formCard"
+    :card-data="cardData"
+    :card-def="cardDef"
+    v-bind="$attrs"
+    :button-listener="buttonListener"
+    v-on="$listeners"
+>
+    <template #MEET_ROOM_item>
+        <el-input v-model="scope.row.title" :disabled="isDisabled(scope.item)"></el-input>
+    </template>
 </ui-form-card>
+
+isDisabled(item) {
+  try {
+    if (this.$attrs.disabled === true) {
+      return true
+    }
+    if (this.cardDef.config.disabled === true) {
+      return true
+    }
+    return item.option.readonly === true
+  } catch (e) {
+    return false
+  }
+}
 ```

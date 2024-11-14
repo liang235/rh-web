@@ -8,7 +8,8 @@
 			v-bind="$attrs" 
 			v-on="$listeners"
 			:card-data="cardData" 
-			:card-def="cardDef" 
+			:card-def="cardDef"
+			:button-listener="buttonListener"
 		>
 			<template slot="column_SITUATION_FEEDBACK" slot-scope="scope">
 				<el-button>插槽</el-button>
@@ -30,7 +31,10 @@ export default {
 	    }
 	},
 	data() {
-		return {}
+		return {
+			// 重写按钮方法
+			buttonListener: { }
+		}
 	},
 	methods: {},
 }

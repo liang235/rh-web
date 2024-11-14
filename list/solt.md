@@ -4,6 +4,21 @@
 ## 基础用法
 ```html
 <template slot="grid_opt" slot-scope="scope">
-    <el-button type="text">编辑</el-button>
+    <el-input v-model="scope.row.title" :disabled="isDisabled(scope.item)"></el-input>
 </template>
+
+isDisabled(item) {
+  try {
+    if (this.$attrs.disabled === true) {
+      return true
+    }
+    if (this.cardDef.config.disabled === true) {
+      return true
+    }
+    return item.option.readonly === true
+  } catch (e) {
+    return false
+  }
+}
+
 ```
