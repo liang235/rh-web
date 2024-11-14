@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a4 as n}from"./chunks/framework.B5He1LgZ.js";const y=JSON.parse('{"title":"自定义列表页面","description":"","frontmatter":{},"headers":[],"relativePath":"list/custom.md","filePath":"list/custom.md"}'),t={name:"list/custom.md"},l=n("",2),h=[l];function p(k,e,E,r,d,g){return a(),i("div",null,h)}const o=s(t,[["render",p]]);export{y as __pageData,o as default};

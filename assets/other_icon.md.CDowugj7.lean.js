@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a4 as e}from"./chunks/framework.B5He1LgZ.js";const E=JSON.parse('{"title":"图标使用","description":"","frontmatter":{},"headers":[],"relativePath":"other/icon.md","filePath":"other/icon.md"}'),t={name:"other/icon.md"},n=e("",7),l=[n];function h(o,r,p,d,c,k){return a(),i("div",null,l)}const m=s(t,[["render",h]]);export{E as __pageData,m as default};
