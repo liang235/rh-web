@@ -1,18 +1,9 @@
-# 自定义页面
-
-```vue
+# 自定义页面 ```vue
 <template>
 	<div>
-		<ui-form-card 
-			ref="formCard"
-			v-bind="$attrs" 
-			v-on="$listeners"
-			:card-data="cardData" 
-			:card-def="cardDef"
-			:button-listener="buttonListener"
-		>
+		<ui-form-card ref="formCard" v-bind="$attrs" v-on="$listeners" :card-data="cardData" :card-def="cardDef" :button-listener="buttonListener">
 			<template slot="column_SITUATION_FEEDBACK" slot-scope="scope">
-				<el-button>插槽</el-button>
+				<el-input v-model="scope.row.title" :disabled="isDisabled(scope.item)"></el-input>
 			</template>
 		</ui-form-card>
 	</div>
@@ -26,17 +17,31 @@ export default {
 			default: () => ({}),
 		},
 		cardDef: {
-	      	type: Object,
-	      	default: () => ({})
-	    }
+			type: Object,
+			default: () => ({}),
+		},
 	},
 	data() {
 		return {
 			// 重写按钮方法
-			buttonListener: { }
+			buttonListener: {},
 		}
 	},
-	methods: {},
+	methods: {
+		isDisabled(item) {
+			try {
+				if (this.$attrs.disabled === true) {
+					return true
+				}
+				if (this.cardDef.config.disabled === true) {
+					return true
+				}
+				return item.option.readonly === true
+			} catch (e) {
+				return false
+			}
+		},
+	},
 }
 </script>
 
