@@ -13,6 +13,7 @@ export default [
     collapsed: false, // 是否展开侧边栏组，默认展开，设置为 true 为隐藏
     items: [
       // { text: 'API', link: `${commonPath}/api.md` },
+      { text: '常用数据', link: `${commonPath}/common.md` },
       { text: '系统变量', link: `${commonPath}/settings.md` },
       { text: 'icon 图标', link: `${commonPath}/icon.md` },
       { text: '页面跳转', link: `${commonPath}/jump.md` },
