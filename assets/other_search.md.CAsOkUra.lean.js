@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a4 as n}from"./chunks/framework.B5He1LgZ.js";const y=JSON.parse('{"title":"查询选择","description":"","frontmatter":{},"headers":[],"relativePath":"other/search.md","filePath":"other/search.md"}'),h={name:"other/search.md"},l=n("",7),p=[l];function k(t,e,E,r,d,g){return a(),i("div",null,p)}const F=s(h,[["render",k]]);export{y as __pageData,F as default};

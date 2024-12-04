@@ -1,0 +1,1 @@
+import{_ as a,c as s,o as e,a4 as i}from"./chunks/framework.B5He1LgZ.js";const _=JSON.parse('{"title":"卡片状态","description":"","frontmatter":{},"headers":[],"relativePath":"card/status.md","filePath":"card/status.md"}'),t={name:"card/status.md"},n=i("",5),r=[n];function l(d,h,p,c,o,k){return e(),s("div",null,r)}const b=a(t,[["render",l]]);export{_ as __pageData,b as default};
