@@ -23,3 +23,8 @@ computed: {
 	}
 }
 ```
+
+## css 变量使用负数
+```scss
+left: calc(-1 * var(--rh-margin-base));
+```
