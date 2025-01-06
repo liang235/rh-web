@@ -1,5 +1,20 @@
 # 页面跳转
 
+## 跳转列表页，查询项设置默认值
+```js
+onMove(title, BZ_TYPE) {
+    const { href } = this.$router.resolve({
+        path: `/openList/OA_BZ_INFO/?extend={'BZ_TYPE': '${BZ_TYPE}'}`,
+        query: {
+            title
+        },
+        reload: true
+    })
+
+    window.open(href)
+}
+```
+
 ## 跳转到卡片页
 ```js
 // 比如这个页面是添加页面
