@@ -1,0 +1,1 @@
+import{_ as a,c as s,o as e,a4 as i}from"./chunks/framework.B5He1LgZ.js";const u=JSON.parse('{"title":"字段校验","description":"","frontmatter":{},"headers":[],"relativePath":"card/verify.md","filePath":"card/verify.md"}'),t={name:"card/verify.md"},n=i("",4),r=[n];function l(d,h,o,p,c,_){return e(),s("div",null,r)}const m=a(t,[["render",l]]);export{u as __pageData,m as default};

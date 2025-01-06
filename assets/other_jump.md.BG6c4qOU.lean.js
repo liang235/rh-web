@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a4 as n}from"./chunks/framework.B5He1LgZ.js";const c=JSON.parse('{"title":"页面跳转","description":"","frontmatter":{},"headers":[],"relativePath":"other/jump.md","filePath":"other/jump.md"}'),l={name:"other/jump.md"},p=n("",20),h=[p];function k(e,t,r,E,d,g){return a(),i("div",null,h)}const F=s(l,[["render",k]]);export{c as __pageData,F as default};

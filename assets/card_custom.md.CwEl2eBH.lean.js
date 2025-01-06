@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a4 as n}from"./chunks/framework.B5He1LgZ.js";const y=JSON.parse('{"title":"自定义页面","description":"","frontmatter":{},"headers":[],"relativePath":"card/custom.md","filePath":"card/custom.md"}'),t={name:"card/custom.md"},l=n("",2),p=[l];function h(e,k,E,r,d,c){return a(),i("div",null,p)}const b=s(t,[["render",h]]);export{y as __pageData,b as default};

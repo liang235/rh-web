@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as i,a4 as n}from"./chunks/framework.B5He1LgZ.js";const b=JSON.parse('{"title":"常用方法","description":"","frontmatter":{},"headers":[],"relativePath":"list/common.md","filePath":"list/common.md"}'),e={name:"list/common.md"},l=n("",5),t=[l];function p(h,r,k,c,d,o){return i(),a("div",null,t)}const u=s(e,[["render",p]]);export{b as __pageData,u as default};

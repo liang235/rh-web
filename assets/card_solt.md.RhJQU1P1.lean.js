@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as i,a4 as n}from"./chunks/framework.B5He1LgZ.js";const o=JSON.parse('{"title":"插槽","description":"","frontmatter":{},"headers":[],"relativePath":"card/solt.md","filePath":"card/solt.md"}'),l={name:"card/solt.md"},p=n("",4),e=[p];function t(h,r,k,E,d,c){return i(),a("div",null,e)}const b=s(l,[["render",t]]);export{o as __pageData,b as default};

@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a4 as n}from"./chunks/framework.B5He1LgZ.js";const F=JSON.parse('{"title":"文件上传","description":"","frontmatter":{},"headers":[],"relativePath":"other/upload.md","filePath":"other/upload.md"}'),l={name:"other/upload.md"},p=n("",2),h=[p];function t(k,e,E,r,d,g){return a(),i("div",null,h)}const c=s(l,[["render",t]]);export{F as __pageData,c as default};
